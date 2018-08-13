@@ -50,7 +50,8 @@ module.exports = (type) => {
       isDev && `webpack-hot-middleware/client?http://127.0.0.1:${config.port}`,
       isDev && 'webpack/hot/only-dev-server',
       './src/index',
-      './src/styles/index'
+      './src/styles/index',
+      './src/styles/antd'
     ]),
     output: {
       publicPath: '',

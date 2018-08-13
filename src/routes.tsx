@@ -6,20 +6,23 @@ import Reg from './views/reg';
 import Login from './views/login';
 import Info from './views/info';
 import UCenter from './views/ucenter';
+import Site from './views/site';
 
 export interface MainRouresProps {}
 
 export default function MainRoures(props: MainRouresProps) {
   return (
     <Router>
-      <Switch>
-        <Redirect from="/" to="/home" exact />
-        <Route path="/home" component={Home} />
-        <Route path="/info" component={Info} />
-        <Route path="/login" component={Login} />
-        <Route path="/reg" component={Reg} />
-        <Route path="/ucenter" component={UCenter} />
-      </Switch>
+      <Site>
+        <Switch>
+          <Redirect from="/" to="/home" exact />
+          <Route path="/home" component={Home} />
+          <Route path="/info" component={Info} />
+          <Route path="/login" component={Login} />
+          <Route path="/reg" component={Reg} />
+          <Route path="/ucenter" component={UCenter} />
+        </Switch>
+      </Site>
     </Router>
   );
 }

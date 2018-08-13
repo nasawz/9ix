@@ -4,6 +4,6 @@ export interface InfoProps {}
 
 export default class Info extends React.Component<InfoProps, any> {
   public render() {
-    return <div />;
+    return <div>info</div>;
   }
 }

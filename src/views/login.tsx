@@ -4,6 +4,6 @@ export interface LoginProps {}
 
 export default class Login extends React.Component<LoginProps, any> {
   public render() {
-    return <div />;
+    return <div>login</div>;
   }
 }

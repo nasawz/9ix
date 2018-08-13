@@ -4,6 +4,6 @@ export interface UDashBoardProps {}
 
 export default class UDashBoard extends React.Component<UDashBoardProps, any> {
   public render() {
-    return <div />;
+    return <div>dashboard</div>;
   }
 }

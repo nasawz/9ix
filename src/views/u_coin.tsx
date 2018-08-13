@@ -4,6 +4,6 @@ export interface UCoinProps {}
 
 export default class UCoin extends React.Component<UCoinProps, any> {
   public render() {
-    return <div />;
+    return <div>coin</div>;
   }
 }

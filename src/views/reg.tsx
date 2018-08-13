@@ -4,6 +4,6 @@ export interface RegProps {}
 
 export default class Reg extends React.Component<RegProps, any> {
   public render() {
-    return <div />;
+    return <div>reg</div>;
   }
 }
