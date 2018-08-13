@@ -1,9 +1,12 @@
 {
   "name": "9ix_web",
+  "title": "9ix",
   "version": "1.0.0",
   "description": "9ix",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node ./tools/server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nasawz/9ix.git"
@@ -29,9 +32,24 @@
     "@types/react": "^16.4.9",
     "@types/react-dom": "^16.0.7",
     "@types/react-router-dom": "^4.3.0",
+    "autoprefixer": "^9.1.1",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.0.5",
+    "express": "^4.16.3",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "postcss-discard-comments": "^4.0.0",
+    "postcss-loader": "^3.0.0",
     "prettier": "^1.14.2",
     "react-hot-loader": "^4.3.4",
+    "style-loader": "^0.22.1",
+    "ts-import-plugin": "^1.5.4",
+    "ts-loader": "^4.4.2",
     "typescript": "^3.0.1",
+    "url-loader": "^1.0.1",
     "webpack": "^4.16.5",
     "webpack-dev-middleware": "^3.1.3",
     "webpack-hot-middleware": "^2.22.3",
